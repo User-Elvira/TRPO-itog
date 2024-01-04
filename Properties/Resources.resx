@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Снимок235" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок235.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок324" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок324.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок51.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок29.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Цвет фона" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Цвет фона.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок231.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок31.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок42.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок310" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок310.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Коты для фона10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Коты для фона10.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок411" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок411.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок48.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок122.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок711" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок711.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок40.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок66.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок322.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок27.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок283" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок283.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Коты для фона8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Коты для фона8.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок63.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок67.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок 28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок 28.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок741" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок741.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок20.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок731" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок731.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок661" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок661.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок342" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок342.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок721" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок721.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок72.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Коты для фона3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Коты для фона3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок281.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок222.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок37.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок234" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок234.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок33.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок24.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок101.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок142" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок142.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок301.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок75.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок7.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок52.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Коты для фона1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Коты для фона1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок60.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок15.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок18.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок55.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reply-message" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reply-message.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок232.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок510" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок510.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок62.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Коты для фона9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Коты для фона9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок421" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок421.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок12.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок64.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Коты для фона" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Коты для фона.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок57.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toggle-button on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toggle-button on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок121.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок13.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок43.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок81.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Коты для фона7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Коты для фона7.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок17.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок32.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок522" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок522.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок81PNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок81PNG.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок8.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок233.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="administrator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\administrator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок242.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Коты для фона5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Коты для фона5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок181.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок14.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок213.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок41.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок68.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок54.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок251.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок56.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок312.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок16.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Коты для фона6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Коты для фона6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок22.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок25.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок212.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок221.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок61.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Коты для фона4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Коты для фона4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок39.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок50.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок521" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок521.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок58.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок191.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок44.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок11.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок223.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок69.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок65.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок551" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок551.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок46.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок511" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок511.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок210.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок241.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок284" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок284.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок38.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок34.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок53.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок59.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок211.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок111.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок311.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок36.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20231201_195221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20231201_195221.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок19.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок21.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок531" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок531.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок341" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок341.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок45.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toggle-button off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toggle-button off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок631" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок631.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок192" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок192.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок321.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок28.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок74.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок47.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок323.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок26.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок23.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок282" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок282.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок70.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок49.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок71.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок30.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок671" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок671.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок141.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок302" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок302.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок35.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок291" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок291.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок73.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Коты для фона2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Коты для фона2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок261" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок261.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок610" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок610.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d1fc809f2d7ae2f7f5d48c1fd37b3cc4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d1fc809f2d7ae2f7f5d48c1fd37b3cc4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок 281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок 281.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок76.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Снимок285" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Снимок285.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
